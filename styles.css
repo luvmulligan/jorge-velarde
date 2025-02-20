@@ -1,0 +1,103 @@
+body {
+  font-family: sans-serif;
+  color: rgb(30, 29, 29);
+}
+ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+li > a {
+  text-decoration: none;
+  color: rgb(30, 29, 29);
+}
+li > a:hover {
+  text-decoration: underline;
+  color: rgb(51, 50, 50);
+}
+.section-container {
+  display: inline;
+  float: right;
+  width: 80%;
+  padding-bottom: 3rem;
+}
+section {
+  display: none;
+}
+.section.active {
+  display: block;
+}
+.menu-container {
+  display: inline-flex;
+  float: left;
+}
+
+.menu-container2 {
+  display: inline-flex;
+  float: left;
+}
+.display {
+  display: inline;
+}
+h1 > img {
+  width: 20rem;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+/* Estilos para el carrusel */
+.carousel {
+  padding-top: 3rem;
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+  padding-bottom: 3rem;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  display: inline-grid;
+  justify-content: center;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 34rem;
+  display: flex;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
+.firma {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: end;
+}
+.lugar {
+  display: flex;
+  justify-content: end;
+}
